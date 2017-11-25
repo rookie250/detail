@@ -1,6 +1,7 @@
 from django.conf.urls import url
 
 from . import views
+from blog.feeds import AllPostsRssFeed
 
 app_name = 'blog'
 urlpatterns = [
